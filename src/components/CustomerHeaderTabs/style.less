@@ -1,0 +1,72 @@
+.activeTab {
+    height: 30px;
+    color: #1890ff !important;
+    background: #fff !important;
+    border-color: #e8e8e8 !important;
+    border-bottom: 1px solid #fff !important;
+}
+
+.normalTab {
+    height: 30px;
+    margin: 0;
+    margin-right: 6px;
+    background: #fafafa;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px 4px 0 0;
+    -webkit-transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    cursor: pointer;
+}
+
+.rumtime-keep-alive-tabs-layout {
+    z-index: 1;
+    height: 30px;
+    padding: 0px;
+
+
+    .ant-tabs-editable {
+        position: fixed;
+        width: 90%;
+    }
+
+    .ant-tabs-nav-wrap {
+        background-color: #FFFFFF !important;
+        height: 30px;
+    }
+
+    .ant-tabs-card>.ant-tabs-nav .ant-tabs-tab {
+        padding: 0 6PX;
+    }
+
+    .ant-tabs .ant-tabs-tab-remove {
+        margin-left: 1PX;
+    }
+
+    .react-contextmenu-wrapper {
+        padding: 7PX 10PX;
+    }
+}
+
+.contextmenustyle {
+    background-color: #FFFFFF;
+    padding: 10px 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #ccc;
+
+    .contextItem {
+        width: 100%;
+        cursor: pointer;
+        height: 100%;
+        background-color: #FFFFFF;
+        font-size: 14PX;
+        line-height: 16PX;
+        padding: 6PX 6PX;
+        font-weight: bold;
+        // text-align: center;
+
+
+        &:hover {
+            background-color: #F3F4F9;
+        }
+    }
+}
